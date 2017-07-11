@@ -4,9 +4,8 @@
  */
 
  const str = ([" "].split);
- let longWord = 0;
- for (let i = 0; i < str; i++) {
-   if (str[i].length > longWord){
-     longestWord = str[i].length;
-   };
+  arr.sort((a, b) => {
+    return b.length - a.length;
+  });
+  return arr[0];
  }
