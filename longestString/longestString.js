@@ -3,7 +3,7 @@
  * Return the longest string in the array.
  */
 
- const str = ([" "].split);
+ const longstr = (arr) => {;
   arr.sort((a, b) => {
     return b.length - a.length;
   });
