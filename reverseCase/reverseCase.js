@@ -3,6 +3,7 @@
  * Example: 'Hello World' -> 'hELLO wORLD'
  * Assume that each string will contain only spaces and letters.
  */
+<<<<<<< HEAD
 const revCase = (str) => {
     const chars =str.split('');
     const arr = [];
@@ -17,3 +18,5 @@ const revCase = (str) => {
 }
 
 
+=======
+>>>>>>> b40a74b08f81bd436c6e3f7bfe9bee0783a0c4be
